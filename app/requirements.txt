@@ -1,0 +1,10 @@
+# FastAPI と関連ライブラリ
+# バージョンはPython 3.12との互換性を考慮しつつ、以前のものを維持
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-jose[cryptography]==3.3.0
+requests==2.31.0
+cachetools==5.3.3
+
+# プロジェクトで必要なその他のライブラリがあればここに追加
+# 例: boto3==1.34.0

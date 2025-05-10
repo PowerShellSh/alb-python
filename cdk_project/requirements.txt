@@ -1,0 +1,10 @@
+# AWS CDK Core Library
+aws-cdk-lib>=2.130.0 # CDKのバージョンはプロジェクト開始時の最新の安定版に更新してください
+
+# Constructs library (CDKの基本的な構成要素)
+constructs>=10.0.0
+
+# 他にCDKコードで使用する特定のAWSサービスのライブラリがあればここに追加
+# 例:
+# aws-cdk.aws-lambda-python-alpha (Python Lambda関数をより便利に扱う場合)
+# aws-cdk.aws-s3-assets (ローカルファイルをS3にアップロードする場合)
